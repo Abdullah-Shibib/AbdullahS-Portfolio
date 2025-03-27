@@ -17,10 +17,10 @@ export default function RootLayout({
   return (
     <html lang="en" className="bg-[#0a192f]">
       <body className={`${inter.className} min-h-screen w-full bg-[#0a192f]`}>
-        <div className="min-h-screen flex flex-col bg-[#0a192f]">
-          <main className="flex-1 bg-[#0a192f]">
+        <div className="page-container">
+          <div className="container">
             {children}
-          </main>
+          </div>
         </div>
       </body>
     </html>

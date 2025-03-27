@@ -140,6 +140,10 @@ const Hero = () => {
             Information Technology Student
           </motion.h2>
 
+          <p className={`${isDark ? 'text-gray-300' : 'text-gray-600'} text-lg mb-8`}>
+            I&apos;m a Full Stack Developer passionate about creating innovative web solutions.
+          </p>
+
           <motion.div
             className="flex flex-wrap justify-center gap-4"
             initial={{ opacity: 0, y: 20 }}

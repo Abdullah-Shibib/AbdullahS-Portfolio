@@ -225,8 +225,8 @@ const About = () => {
               whileHover={{ y: -5, transition: { duration: 0.2 } }}
             >
               <h3 className={`text-xl font-semibold mb-3 ${isDark ? 'text-white' : 'text-gray-800'}`}>Background</h3>
-              <p className={`${isDark ? 'text-gray-300' : 'text-gray-700'}`}>
-                I'm a passionate Information Technology student at Carleton University with a focus on
+              <p className={`${isDark ? 'text-gray-300' : 'text-gray-600'} mb-6`}>
+                I&apos;m a passionate Information Technology student at Carleton University with a focus on
                 developing innovative solutions using the latest technologies. My expertise spans 
                 full-stack development, machine learning, and data analysis.
               </p>
@@ -241,7 +241,7 @@ const About = () => {
               whileHover={{ y: -5, transition: { duration: 0.2 } }}
             >
               <h3 className={`text-xl font-semibold mb-3 ${isDark ? 'text-white' : 'text-gray-800'}`}>Journey</h3>
-              <p className={`${isDark ? 'text-gray-300' : 'text-gray-700'}`}>
+              <p className={`${isDark ? 'text-gray-300' : 'text-gray-600'} mb-6`}>
                 My journey in tech began with a curiosity about how digital systems shape our daily lives.
                 This curiosity has evolved into a dedicated pursuit of knowledge in areas like web development,
                 artificial intelligence, and database management.
@@ -257,9 +257,9 @@ const About = () => {
               whileHover={{ y: -5, transition: { duration: 0.2 } }}
             >
               <h3 className={`text-xl font-semibold mb-3 ${isDark ? 'text-white' : 'text-gray-800'}`}>Interests</h3>
-              <p className={`${isDark ? 'text-gray-300' : 'text-gray-700'}`}>
+              <p className={`${isDark ? 'text-gray-300' : 'text-gray-600'} mb-6`}>
                 Outside of academics, I enjoy staying current with emerging technologies, contributing to open-source
-                projects, and exploring how technology can solve real-world challenges. I'm particularly interested in
+                projects, and exploring how technology can solve real-world challenges. I&apos;m particularly interested in
                 the intersection of technology and psychology.
               </p>
             </motion.div>

@@ -98,7 +98,7 @@ const Contact = () => {
                   Get in Touch
                 </h3>
                 <p className={`${isDark ? 'text-gray-300' : 'text-gray-600'} mb-6`}>
-                  I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+                  I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
                 </p>
               </div>
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Abdullah Shibib's Portfolio
 
 A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS.
@@ -71,3 +72,6 @@ Check out the [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
+=======
+# AbdullahS-Portfolio
+>>>>>>> 5829c3e65b8984b998da4646fcfb1d26c6a22c13

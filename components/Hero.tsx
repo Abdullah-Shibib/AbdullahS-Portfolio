@@ -104,7 +104,7 @@ const Hero = () => {
               }`}
             >
               <span className="relative z-10">
-                Hi, I'm{" "}
+                Hi, I&apos;m{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-purple-600">
                   {personalInfo.name}
                 </span>

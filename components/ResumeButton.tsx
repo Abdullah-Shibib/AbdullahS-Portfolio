@@ -2,8 +2,8 @@ import React from 'react';
 
 const ResumeButton = () => {
   const handleDownload = () => {
-    // You can either use a local PDF file or a hosted URL
-    const resumeUrl = process.env.NEXT_PUBLIC_RESUME_URL || '/assets/resume.pdf';
+    // Use the correct path to the resume PDF with the correct filename
+    const resumeUrl = '/Abdullah_Shibib_Resume.pdf.pdf';
     window.open(resumeUrl, '_blank');
   };
 
